@@ -27,8 +27,8 @@ export default function HeroSection() {
             <span className="font-bold text-primary">Luciano Bicaku</span>
           </h1>
           <p className="text-center text-xl">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Front-End developer always challenging myself to the limits and
+            learning new things.
           </p>
           <div className="flex flex-row text-base text-white justify-center my-8">
             <Button
