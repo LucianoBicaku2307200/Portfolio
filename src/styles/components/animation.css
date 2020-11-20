@@ -1,0 +1,18 @@
+.arrow-animation {
+  animation: animation1 1s infinite;
+}
+@keyframes animation1 {
+  0%,
+  100% {
+    transform: translateX(25%);
+    animationtimingfunction: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateX(0);
+    animationtimingfunction: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
