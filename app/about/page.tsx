@@ -1,8 +1,6 @@
 "use client";
 import { NextPage } from "next";
 import { Header } from "@/src/components/Header";
-import LeftCard from "@/src/components/Timeline/LeftCard";
-import RightCard from "@/src/components/Timeline/RightCard";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";
 import { FaRegFilePdf } from "react-icons/fa";
@@ -18,14 +16,14 @@ const BlogPage: NextPage = () => {
     <>
       <Header />
       <main className="container">
-        <div className="flex flex-col items-center justify-center gap-6 text-center container">
+        <div className="flex flex-col items-center justify-center gap-6 text-center container mt-20 sm:mt-0">
           <motion.div
             ref={hero}
             style={{ opacity: opacity }}
-            className="h-screen transition-opacity ease-in-out duration-300 flex items-center justify-center gap-10 flex-col "
+            className="min-h-screen transition-opacity ease-in-out duration-300 flex items-center justify-center gap-10 flex-col "
           >
             <h1 className="text-5xl md:text-8xl font-display">About me</h1>
-            <p className="text-gray-500 w-8/12">
+            <p className="text-gray-500 md:w-8/12">
               Hello! I am a self-taught{" "}
               <b className="text-gray-400">Full stack web developer</b> with a
               passion for continuous learning and growth. As a{" "}
