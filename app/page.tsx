@@ -17,7 +17,7 @@ const HomePage: NextPage = () => {
       </h1>
       {/*<span className="animate-date text-gray">{getDaysBeforeReturn()} дней до возвращения</span>*/}
       <p className="text-gray animate-fade-in my-16">
-        Let's build great shopping experiences together.
+        Let&lsquo;s build great shopping experiences together.
         <br />
         Full Stack Developer, Blockchain Enthusiast, BigCommerce Certified
         Developer

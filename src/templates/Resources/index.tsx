@@ -33,21 +33,27 @@ export const Resources: FC = () => {
                   </span>
                   <p className="mt-4 text-xs duration-1000 text-zinc-400 group-hover:text-zinc-200  flex gap-1 flex-wrap">
                     Tags:{" "}
-                    {item.tags?.map((el) => (
-                      <span className="capitalize">{el},</span>
+                    {item.tags?.map((el, index) => (
+                      <span key={index} className="capitalize">
+                        {el},
+                      </span>
                     ))}
                   </p>
 
                   <p className="mt-4 text-xs duration-1000 text-zinc-400 group-hover:text-zinc-200  flex gap-1 flex-wrap">
                     Platforms:{" "}
-                    {item.platforms?.map((el) => (
-                      <span className="capitalize">{el},</span>
+                    {item.platforms?.map((el, index) => (
+                      <span key={index} className="capitalize">
+                        {el},
+                      </span>
                     ))}
                   </p>
                   <p className="mt-4 text-xs duration-1000 text-zinc-400 group-hover:text-zinc-200 flex gap-1 flex-wrap">
                     Technologies:{" "}
-                    {item.technologies?.map((el) => (
-                      <span className="capitalize">{el},</span>
+                    {item.technologies?.map((el, index) => (
+                      <span key={index} className="capitalize">
+                        {el},
+                      </span>
                     ))}
                   </p>
                 </div>
