@@ -24,9 +24,9 @@ export const resourcesData: ResourceType[] = [
 		className: "md:col-start-3 md:col-end-4 md:row-start-1 md:row-end-3"
 	},
 	{
-		label: "Alemaco",
+		label: "Teams Delivery",
 		description: "Experience the epitome of Italian craftsmanship and elegance through Alemaco's meticulously crafted furniture designs.",
-		href: "https://alemaco.it/",
+		href: "https://teamsdeliverysrl.it/",
 		tags: ["#bigCommerce", "#eurostep SRL"],
 		platforms: ["bigcommerce"],
 		technologies: ["Stencil JS", "Scss", "React Js", "HandleBars"],
@@ -50,6 +50,16 @@ export const resourcesData: ResourceType[] = [
 		tags: ["#bigCommerce", "#eurostep SRL"],
 		platforms: ["bigcommerce"],
 		technologies: ["Stencil JS", "Scss", "React Js", "HandleBars"],
+		repoUrl: "",
+		className: ""
+	},
+	{
+		label: "Faba SRL",
+		description: "Faba the Storyteller and the Sound Characters, designed to grow together in a fun way.",
+		href: "https://www.myfaba.it/",
+		tags: ["#bigCommerce", "#eurostep SRL"],
+		platforms: ["bigcommerce"],
+		technologies: ["Stencil JS", "Scss", "React Js", "HandleBars", "Custom Checkout", "Multi Channel/Store project"],
 		repoUrl: "",
 		className: ""
 	}
