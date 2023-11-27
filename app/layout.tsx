@@ -42,7 +42,6 @@ export const metadata = {
 
 const urbanist = Urbanist({
   subsets: ["latin"],
-  variable: "--font-urbanist",
 });
 
 const calSans = LocalFont({
@@ -59,7 +58,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={
-        [urbanist.variable, calSans.variable].join(" ") + "scroll-smooth"
+        [urbanist.className, calSans.variable].join(" ") + " scroll-smooth"
       }
     >
       <body>

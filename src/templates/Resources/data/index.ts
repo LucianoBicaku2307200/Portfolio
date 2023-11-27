@@ -2,15 +2,36 @@ import { ResourceType } from "../types";
 
 export const resourcesData: ResourceType[] = [
 	{
-		label: "CambioBike",
-		description:
-			"Discover a vast array of bicycles and accessories for cycling enthusiasts at CambioBike's online store.",
-		href: "https://cambiobike.it/",
+		label: "Faba SRL",
+		description: "Faba the Storyteller and the Sound Characters, designed to grow together in a fun way.",
+		href: "https://www.myfaba.it/",
 		tags: ["#bigCommerce", "#eurostep SRL"],
 		platforms: ["bigcommerce"],
-		technologies: ["Stencil JS", "Scss", "React Js", "HandleBars"],
+		technologies: ["Stencil JS", "Scss", "React Js", "HandleBars", "Custom Checkout", "Multi Channel/Store project"],
 		repoUrl: "",
-		className: "md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-3",
+		className: "md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-3"
+	},
+	{
+		label: "Morph Parfume",
+		description:
+			"The Wonderful World of Morph Fragrances.",
+		href: "https://morphparfum.com/",
+		tags: ["#bigCommerce", "#eurostep SRL"],
+		platforms: ["bigcommerce"],
+		technologies: ["Stencil JS", "Scss", "Widgets", "HandleBars"],
+		repoUrl: "",
+		className: "",
+	},
+	{
+		label: "Jolie Profumerie",
+		description:
+			"One of the best project i had to work on",
+		href: "https://jolieprofumerie.com/",
+		tags: ["#bigCommerce", "#eurostep SRL"],
+		platforms: ["bigcommerce"],
+		technologies: ["Stencil JS", "Scss", "Custom Checkout", "React/Typescript"],
+		repoUrl: "",
+		className: "",
 	},
 	{
 		label: "Miss Bikini",
@@ -26,7 +47,7 @@ export const resourcesData: ResourceType[] = [
 	{
 		label: "Teams Delivery",
 		description: "Experience the epitome of Italian craftsmanship and elegance through Alemaco's meticulously crafted furniture designs.",
-		href: "https://teamsdeliverysrl.it/",
+		href: "https://teamsdeliverysrl.it",
 		tags: ["#bigCommerce", "#eurostep SRL"],
 		platforms: ["bigcommerce"],
 		technologies: ["Stencil JS", "Scss", "React Js", "HandleBars"],
@@ -53,14 +74,16 @@ export const resourcesData: ResourceType[] = [
 		repoUrl: "",
 		className: ""
 	},
+	
 	{
-		label: "Faba SRL",
-		description: "Faba the Storyteller and the Sound Characters, designed to grow together in a fun way.",
-		href: "https://www.myfaba.it/",
+		label: "CambioBike",
+		description:
+			"Discover a vast array of bicycles and accessories for cycling enthusiasts at CambioBike's online store.",
+		href: "https://cambiobike.it/",
 		tags: ["#bigCommerce", "#eurostep SRL"],
 		platforms: ["bigcommerce"],
-		technologies: ["Stencil JS", "Scss", "React Js", "HandleBars", "Custom Checkout", "Multi Channel/Store project"],
+		technologies: ["Stencil JS", "Scss", "React Js", "HandleBars"],
 		repoUrl: "",
-		className: ""
-	}
+		className: "md:col-start-1 md:col-end-3 md:row-start-5 md:row-end-5",
+	},
 ];
