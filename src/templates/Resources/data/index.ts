@@ -37,7 +37,7 @@ export const resourcesData: ResourceType[] = [
 		label: "Miss Bikini",
 		description:
 			"Miss Bikini brings you an exquisite collection of stylish swimwear and beachwear for the fashion-forward.",
-		href: "https://missbikini.eu/",
+		href: "https://en.missbikini.it/",
 		tags: ["#bigCommerce", "#eurostep SRL"],
 		platforms: ["bigcommerce"],
 		technologies: ["Stencil JS", "Scss", "React Js", "HandleBars"],
